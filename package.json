@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "ethers": "^6.7.1"
+    "ethers": "^6.7.1",
+    "serve": "^14.2.1",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
     "webpack-cli": "^5.1.4"
   },
-  "scripts":{
+  "scripts": {
     "build": "webpack && serve -s dist"
   }
 }
